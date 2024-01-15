@@ -47,18 +47,114 @@ header .brand {
 }
 
 /*Explore*/
+
 #explore {
   margin: 0 8vw;
+  position: relative;
 }
 #explore img {
   object-fit: cover;
   background-repeat: no-repeat;
   width: 100%;
-  position: relative;
+  border-radius: 16px;
 }
 #explore div {
   position: absolute;
-  background-color: antiquewhite;
-  width: 800px;
-  height: 290px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  top: 18vh;
+}
+#explore h2 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+}
+#explore p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 1.2rem;
+}
+#explore form {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 16px;
+}
+#explore form input,
+#explore form select,
+#explore form button {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  border: none;
+}
+input::placeholder,
+select {
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  padding: 16px;
+}
+#explore button {
+  background-color: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+#explore i {
+  color: #fff;
+  margin-right: 8px;
+}
+
+/*popular*/
+
+#popular {
+  display: flex;
+  margin: 0 8vw;
+  margin-top: 100px;
+  gap: 50px;
+}
+#popular .text {
+  flex-basis: 70%;
+}
+#popular img {
+  flex-basis: 30%;
+}
+#popular h3 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+#popular p {
+  color: rgba(19, 19, 24, 0.7);
+  font-weight: 400;
+  line-height: 2rem; /* 162.5% */
+  max-width: 40vw;
+  font-size: 20px;
+}
+#popular ul {
+  margin: 24px;
+}
+#popular li {
+  margin: 8px;
+  color: rgba(19, 19, 24, 0.7);
+  font-weight: 400;
+  line-height: 2rem; /* 162.5% */
+  max-width: 40vw;
+  font-size: 20px;
+}
+#popular button {
+  width: 174px;
+  height: 52px;
+  background-color: #ff5400;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 32px;
 }
